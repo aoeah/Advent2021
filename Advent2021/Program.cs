@@ -1,4 +1,4 @@
-﻿using Advent2021.Day1NS;
+﻿using Advent2021.Days;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,8 +9,9 @@ namespace Advent2021
     {
         static void Main(string[] args)
         {
-            var day = new Day1();
+            var day = new Day2();
 
+            Console.WriteLine(day.Part1());
             Console.WriteLine(day.Part2());
         }
     }

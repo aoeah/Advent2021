@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Advent2021.Day1NS
+namespace Advent2021.Days
 {
     public class Day1
     {
