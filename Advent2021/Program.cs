@@ -9,10 +9,10 @@ namespace Advent2021
     {
         static void Main(string[] args)
         {
-            var day = new Day2();
+            var day = new Day3();
 
-            Console.WriteLine(day.Part1());
-            Console.WriteLine(day.Part2());
+            Console.WriteLine($"Part1: {day.Part1()}");
+            Console.WriteLine($"Part2: {day.Part2()}");
         }
     }
 }
